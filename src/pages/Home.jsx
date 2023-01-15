@@ -9,7 +9,10 @@ export default function Home() {
                 Things to do
             </li>
             <li>
-                <Link to="/fibonacci">Fibonacci</Link>
+                <Link to="/Fibonacci">Fibonacci</Link>
+            </li>
+            <li>
+                <Link to="/Strings">Strings</Link>
             </li>
         </ul>
     </div>
