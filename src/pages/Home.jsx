@@ -14,6 +14,9 @@ export default function Home() {
             <li>
                 <Link to="/Strings">Strings</Link>
             </li>
+            <li>
+                <Link to="/PrimeNumbers">Prime Numbers</Link>
+            </li>
         </ul>
     </div>
   )

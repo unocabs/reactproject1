@@ -5,7 +5,7 @@ export default function Fibonacci() {
 
   const getFibonacci = () => {
     if (isNaN(input)) {
-      <h1>Please enter a number.</h1>;
+      return (<h1>Please enter a number.</h1>);
     } else {
       const sequence = [];
       let firstNumber = 0;
