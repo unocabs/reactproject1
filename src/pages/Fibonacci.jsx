@@ -6,8 +6,21 @@ export default function Fibonacci() {
   const getFibonacci = () => {
     if (isNaN(input)) {
       <h1>Please enter a number.</h1>;
-    }
+    } else {
+      const sequence = [];
+      let firstNumber = 0;
+      let secondNumber = 1;
 
+      for (let x = 1; x <= input; x++) {
+        sequence.push(firstNumber);
+
+        let nextTerm = firstNumber + secondNumber;
+        firstNumber = secondNumber;
+        secondNumber = nextTerm;
+      }
+
+      return sequence.map((data) => <h1>{data}</h1>);
+    }
   };
 
   return (
