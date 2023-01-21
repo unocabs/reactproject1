@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Fibonacci from "./pages/Fibonacci";
 import Strings from "./pages/Strings";
 import PrimeNumbers from "./pages/PrimeNumbers";
+import MultiplicationTable from "./pages/MultiplicationTable";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Fibonacci" element={<Fibonacci />} />
         <Route path="/Strings" element={<Strings />} />
         <Route path="/PrimeNumbers" element={<PrimeNumbers />} />
+        <Route path="/MultiplicationTable" element={<MultiplicationTable />} />
       </Routes>
     </BrowserRouter>
   );

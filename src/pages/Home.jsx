@@ -17,6 +17,9 @@ export default function Home() {
             <li>
                 <Link to="/PrimeNumbers">Prime Numbers</Link>
             </li>
+            <li>
+                <Link to="/MultiplicationTable">Multiplication Table</Link>
+            </li>
         </ul>
     </div>
   )
