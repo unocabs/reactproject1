@@ -20,6 +20,9 @@ export default function Home() {
             <li>
                 <Link to="/MultiplicationTable">Multiplication Table</Link>
             </li>
+            <li>
+                <Link to="/SumOfNatural">Sum of Natural Numbers</Link>
+            </li>
         </ul>
     </div>
   )
